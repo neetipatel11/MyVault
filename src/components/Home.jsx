@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/np.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -23,25 +23,11 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
-              <ReactTyped
-                className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
-                typeSpeed={40}
-                backSpeed={50}
-                loop={true}
-              />
-            </div>
+            <span className="text-xl">Welcome to my updates!</span>
+           {/* yaha pe tha kuch */}
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            👋 Hi, I’m Neeti - A Full Stack developer (MERN Stack) currently pursuing MCA from NIT, Bhopal.
             </p>
             <br />
             {/* social media icons */}
@@ -55,20 +41,20 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/neeti-patel-8b009624b/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.youtube.com/" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className=" space-y-2">

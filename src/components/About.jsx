@@ -9,18 +9,21 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
-          visually stunning Software solutions that leave a lasting impression.
+          Hello, I'm Neeti, and i am from narsinghpur (mp). I have completed my graduation from DAVV university indore.Now I am pursuing MCA from MANIT BHOPAL. .my skills include c,java ,DSA,sql .I have a good understanding of  REACT, JavaScript, .apart from this my hobbies included badminton , as well as sketching.“I’m highly motivated. And goal-oriented person I am an easy going person.
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+       * MAULANA AZAD NATIONAL INSTITUTE OF TECHNOLOGY 08 2022 – 04 2025<br/>
+         Master of Computer Applications - CGPA - 8.20 Bhopal, Madhya Pradesh<br/>
+       * SHRI GUJARATI SAMAJ INSTITUTE OF PROFESSIONAL STUDIES 07 2019 – 05 2022<br/>
+         Bachelor’s of Computer Applications - CGPA - 7.30 Indore, Madhya Pradesh<br/>
+        *GYAN BHUMI PUBLIC HIGHER SECONDARY SCHOOL 07 2018 – 05 2019<br/>
+         12th - Percentage - 87.8% Narsinghpur, Madhya Pradesh<br/>
+        *GYAN BHUMI PUBLIC HIGHER SECONDARY SCHOOL 07 2016 – 05 2017<br/>
+         10th - Percentage - 88.3% Narsinghpur, Madhya Pradesh
         </span>
         <br />
         <br />
@@ -28,14 +31,11 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+        my expertise in C, Java, SQL, and Data Structures & Algorithms (DSA). With a solid foundation in operating systems and database management systems (DBMS), I excel in backend development using Node.js and front-end development with React and JavaScript. This collection highlights my comprehensive skill set and passion for software development across various technologies and frameworks.
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        {/* <h1 className="text-green-600 font-semibold text-xl">
           Professional Experience
         </h1>
         <span>
@@ -46,25 +46,20 @@ function About() {
           [Dates] [Brief description of projects and contributions]
         </span>
         <br />
-        <br />
+        <br /> */}
         <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
+          Achievements & Certification:
         </h1>
         <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
+        Participated in the IP Awareness/Training program under the National Intellectual Property Awareness Mission at Maulana Azad National Institute of Technology, Bhopal.
         </span>
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
+          Position
         </h1>
         <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+        As the head of the Rubik’s Photography Team at NIT Bhopal, I led a group of four members in organizing and executing various photography events. This role required strong coordination and communication skills, as well as the ability to motivate and guide team members. Our team successfully covered multiple events, showcasing our ability to work collaboratively and deliver high-quality results.
         </p>
       </div>
     </div>

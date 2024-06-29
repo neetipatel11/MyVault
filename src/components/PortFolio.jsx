@@ -3,40 +3,44 @@ import java from "../../public/java.png";
 import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
+import weather from "../../public/weather.jpeg";
 import nodejs from "../../public/node.png";
+import gym from "../../public/gym.png";
+import food from "../../public/food.jpeg";
+import love from "../../public/love.jpeg";
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: mongoDB,
-      name: "MongoDB",
+      logo: food,
+      name: "Meal Magic",
+      link: "https://neetipatel11.github.io/OnlineFoodService/index.html",
+      description: "To build a food restaurant website."
+    
     },
     {
       id: 2,
-      logo: express,
-      name: "Express",
+      logo: gym,
+      name: "Gym Management System",
+      link: "https://neetipatel11.github.io/OnlineFoodService/index.html",
+      description:"Manage gym efficiently with our easy-to-use system"
     },
     {
       id: 3,
-      logo: reactjs,
-      name: "ReactJS",
+      logo: love,
+      name: "Love Calculator",
+      link: "https://neetipatel11.github.io/lovecalculator/lovecal.html",
+      description: "A platform for finding and sharing love stories."
     },
     {
       id: 4,
-      logo: nodejs,
-      name: "NodeJS",
+      logo: weather,
+      name: "Weather App",
+      link: "https://github.com/neetipatel11/WeatherApp.git",
+      description: "weather app provides up-to-date and accurate weather information"
     },
-    {
-      id: 5,
-      logo: python,
-      name: "Python",
-    },
-    {
-      id: 6,
-      logo: java,
-      name: "Java",
-    },
+    
+    
   ];
   return (
     <div
@@ -45,9 +49,9 @@ function PortFolio() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
-        <span className=" underline font-semibold">Featured Projects</span>
+        <span className=" underline font-semibold"> Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
-          {cardItem.map(({ id, logo, name }) => (
+          {cardItem.map(({ id, logo, name ,link,description}) => (
             <div
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
@@ -60,16 +64,21 @@ function PortFolio() {
               <div>
                 <div className="px-2 font-bold text-xl mb-2">{name}</div>
                 <p className="px-2 text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  {description}
                 </p>
               </div>
               <div className=" px-6 py-4 space-x-3 justify-around">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Video
-                </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
-                </button>
+               
+               
+              <a href={link}>
+                  <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
+                    Source code
+                  </button>
+                </a>
+
+
+
+                
               </div>
             </div>
           ))}
