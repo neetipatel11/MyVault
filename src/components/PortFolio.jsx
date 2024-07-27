@@ -22,7 +22,7 @@ function PortFolio() {
       id: 2,
       logo: gym,
       name: "Gym Management System",
-      link: "https://neetipatel11.github.io/OnlineFoodService/index.html",
+      link: "https://github.com/neetipatel11/GymManagementSystem.git",
       description:"Manage gym efficiently with our easy-to-use system"
     },
     {
