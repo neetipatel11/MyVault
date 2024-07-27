@@ -36,7 +36,7 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/neeti.patel.3762" target="_blank">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
@@ -45,6 +45,12 @@ function Home() {
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
+                    <li>
+  <a href="https://www.instagram.com/_neeti_patel_11/" target="_blank">
+    <FaInstagram className="text-2xl cursor-pointer" />
+  </a>
+</li>
+
                   {/* <li>
                     <a href="https://www.youtube.com/" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
