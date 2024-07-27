@@ -28,7 +28,7 @@ function Home() {
            {/* yaha pe tha kuch */}
             <br />
             <p className="text-sm md:text-md text-justify">
-            👋 Hi, I’m Neeti - A Full Stack developer (MERN Stack) currently pursuing MCA from NIT, Bhopal.
+            👋 Hi, I’m Neeti -  A Full Stack Developer currently learning and gaining experience in Spring Boot.
             </p>
             <br />
             {/* social media icons */}
