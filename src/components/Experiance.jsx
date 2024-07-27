@@ -1,5 +1,5 @@
 import React from "react";
-import html from "../../public/html.png";
+import springBoot from "../../public/springBoot.jpg";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
@@ -11,8 +11,8 @@ function Experiance() {
   const cardItem = [
     {
       id: 1,
-      logo: html,
-      name: "MongoDB",
+      logo: springBoot,
+      name: "SpringBoot",
     },
     {
       id: 2,
